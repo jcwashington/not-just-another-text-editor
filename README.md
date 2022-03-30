@@ -12,8 +12,6 @@
     SO THAT I can reliably retrieve them for later use
     ```
 
-  Technologies Utilized:
-
   ## Contents
 
   1. [Installation](#installation)
@@ -28,20 +26,32 @@
   7. [Have Questions?](#questions)
 
   ## [Installation](#installation)
-  If you plan to run the application on your local machine follow the steps below. 
+  To accese the J.A.T.E web-based experience, the app is deployed here: [Not Just Another Text Editor](https://young-woodland-92227.herokuapp.com/)
 
-  To clone repo: 
-  ```md
-  git clone git@github.com:jcwashington/not-just-another-text-editor.git
-  ```
+  However, if you plan to run the application on your local machine follow the steps below. 
+  Clone repo:
 
+    ```md
+    git clone git@github.com:jcwashington/not-just-another-text-editor.git
+    ```
 
+  You will need to run `npm run build` from your root directory to build and utilize the text editor locally
+
+  Using either route, you can then install the Chrome App to continue using the text editor offline
 
   ## [Project Usage](#usage)
-
-
+  This text editor is a single-page application that allows us to create code snippets regardless of our internet connection.
+  
   ### [Visuals](#visuals)
 
+  The text editor can be accessed via a heroku hosted deployed site. That URL is here: [Not Just Another Text Editor](https://young-woodland-92227.herokuapp.com/). 
+
+  ![The web-based experience makes it easy to create and edit snippets from a single URL](/assets/JATE_webdeployed.png)
+
+
+  As mentioned in the instructions above, you can also utilize it on your local machine either by cloning and building this project yourself, or by installing the Chrome App
+
+  ![If you prefer the flexibility of offline access, use the Chrome App](/assets/JATE_offline.gif)
 
   ## [Licenses](#licenses)
   This project uses the ISC license.
